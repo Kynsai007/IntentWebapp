@@ -11,7 +11,7 @@ function addRow(data)
    
 $("#button").click(function(){
     let input = $("#input").val();
-    $.post("http://127.0.0.1:8000/predict",
+    $.post("http://20.93.107.40/predict",
   JSON.stringify({
     document: input
   }),
